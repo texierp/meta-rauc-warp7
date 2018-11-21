@@ -1,0 +1,2 @@
+RuntimeWatchdogSec=20
+ShutdownWatchdogSec=10min
