@@ -2,10 +2,10 @@ DESCRIPTION = "RAUC bundle generator"
 
 inherit bundle
 
-RAUC_BUNDLE_COMPATIBLE = "AwesomeProduct"
-RAUC_BUNDLE_VERSION = "v2018-11-17-1"
-RAUC_BUNDLE_DESCRIPTION = "Simple Demo Bundle for CDL"
-RAUC_BUNDLE_SLOTS = "rootfs" 
+RAUC_BUNDLE_COMPATIBLE = "${MACHINE}"
+RAUC_BUNDLE_VERSION = "${DISTRO_VERSION}"
+RAUC_BUNDLE_DESCRIPTION = "Generic Demo Bundle"
+RAUC_BUNDLE_SLOTS = "rootfs"
 RAUC_SLOT_rootfs = "core-image-base"
 RAUC_SLOT_rootfs[fstype] = "ext4"
 
