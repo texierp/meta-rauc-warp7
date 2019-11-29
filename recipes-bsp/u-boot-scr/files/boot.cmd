@@ -1,4 +1,4 @@
-echo "#### RAUC boot script : CDL Demo" 
+echo "#### RAUC boot script"
 
 test -n "${BOOT_ORDER}" || setenv BOOT_ORDER "A B"
 test -n "${BOOT_A_LEFT}" || setenv BOOT_A_LEFT 3
