@@ -3,8 +3,7 @@ header:
 
 machine: imx7s-warp
 distro: poky
-target:
-  - core-image-base
+target: generic-bundle
 
 repos:
   meta-rauc-warp7:
